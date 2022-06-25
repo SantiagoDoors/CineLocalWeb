@@ -1,0 +1,15 @@
+button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    
+  }
+  .on {
+    color: gold;
+    font-size: 38.4px;
+  }
+  .off {
+    color: grey;
+    font-size: 38.4px;
+  }

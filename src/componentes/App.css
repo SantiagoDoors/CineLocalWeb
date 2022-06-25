@@ -1,0 +1,83 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.card {
+    margin: 1rem;
+    width: 300px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-weight: 700;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.card img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.peliCard {
+    display: flex;
+    flex-wrap: wrap;
+}
+.info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width:100%; 
+    padding: 1rem;
+}
+.info h3{
+    width: 100%;
+    text-align: center;
+}
+.header_web{
+    background-color: black;
+    padding: 1rem;
+    color:rgb(255, 255, 255);
+    font-weight: 900;
+    font-size: larger;
+    font-style: oblique;
+    display: flex;
+    justify-content: space-between;
+
+}
+.header_web h1 {
+    justify-content: flex-start;
+    
+}
+.buscar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    border: 3px solid white;
+    font-family: inherit;
+    background-color: transparent;
+    color: white;
+    font-size: medium;
+    border-radius: 2px;
+}
+.buscar:focus{
+    outline: 0;
+}
+.buscar::placeholder{
+    font-family: inherit;
+    color:rgba(255, 255, 255, 0.726);
+    font-size: medium;
+}
+.masInfo{
+    color:white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    padding:4px;
+
+}
+.span{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
